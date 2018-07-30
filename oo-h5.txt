@@ -1,0 +1,36 @@
+IF*C://tryoo*size-changed*THEN*record-summary
+IF*C://tryoo*size-changed*THEN*record-detail
+IF*C://tryoo*path-changed*THEN*recover
+IF*C://tryoo*modified*THEN*recover
+IF*C://tryoo/www.txt*renamed*THEN*record-detail
+
+IF*C://tryoo/out2.txt*path-changed*THEN*record-summary
+dfjs
+M*C://tryoo/out2.txt*C://tryoo/outout.txt
+------------------------------------------------
+
+need modify: dir output
+num of dirs
+need check
+
+
+
+
+IF*C://tryoo*size-changed*THEN*record-detail
+IF*C://tryoo*path-changed*THEN*recover
+
+IF*C://tryoo/www.txt*renamed*THEN*record-detail
+
+IF*C://tryoo1*size-changed*THEN*record-summary
+IF*C://tryoo1*renamed*THEN*record-detail
+
+IF*C://tryoo2*size-changed*THEN*record-detail
+IF*C://tryoo2*modified*THEN*record-detail
+
+IF*C://tryoo2/out2.txt*path-changed*THEN*record-summary
+
+
+M*C://tryoo/out.txt*C://tryoo/新建文件夹/out.txt
+C*C://tryoo/trytest.txt*kjfdlsjfjsjflslj
+D*C://tryoo1/out2.txt*343434343434343434
+A*C://tryoo1*343434343434343434
